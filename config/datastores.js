@@ -48,8 +48,14 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+
+
+    adapter: 'sails-sqlserver-sailsv1',
+    user: 'usrsqlfip',
+    password: '6Rkc5fE7VSUHcLihp',
+    host: 'fitz-vmssql-sql.admin.priv:1433', // azure database
+    database: 'Sandbox',
+    //url: 'sqlsrv://usrsqlfip:6Rkc5fE7VSUHcLihp@fitz-vmssql-sql.admin.priv:1433/FIP',
 
   },
 
